@@ -9,10 +9,10 @@ import (
 	"github.com/BurntSushi/xgbutil/xrect"
 	"github.com/BurntSushi/xgbutil/xwindow"
 
-	"github.com/BurntSushi/wingo/focus"
-	"github.com/BurntSushi/wingo/logger"
-	"github.com/BurntSushi/wingo/wm"
-	"github.com/BurntSushi/wingo/xclient"
+	"github.com/mkrull/wingo/focus"
+	"github.com/mkrull/wingo/logger"
+	"github.com/mkrull/wingo/wm"
+	"github.com/mkrull/wingo/xclient"
 )
 
 func rootInit(X *xgbutil.XUtil) {
